@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Trebuchet MS', 'Avenir Next', sans-serif;
+  color: #203329;
+  background: #eef0e6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --ink: #203329;
+  --ink-soft: #536257;
+  --muted: #879188;
+  --line: #d6dbcf;
+  --paper: #f6f7f0;
+  --field: #e5ebd9;
+  --forest: #244737;
+  --forest-deep: #172e25;
+  --leaf: #94b378;
+  --orange: #e77b43;
+  --mono: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+  --display: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Georgia, serif;
+  font-size: 15px;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 0; min-height: 100vh; margin: 0; }
+button, input { font: inherit; }
+button { color: inherit; }
+button:focus-visible, input:focus-visible, a:focus-visible { outline: 3px solid #e77b43; outline-offset: 3px; }
+::selection { color: #fff; background: #477159; }
+#root { min-height: 100vh; }
